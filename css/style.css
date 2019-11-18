@@ -1,0 +1,767 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #f1f3f4; */
+   /* font-family: 'Poppins', sans-serif; */
+   font-family: 'Yeon Sung', cursive;
+}
+ nav, .navbar, h2, .nav-item, .nav-link {
+    background: black;
+    color: #f1f3f4;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+    /* height: 5rem */
+}
+.nav-link{
+    height: 2rem;
+    position: relative;
+}
+nav{
+    height: 4rem;
+}
+.navbar-brand h2{
+    color: lightgreen;
+    position: relative;
+    top: 0;
+}
+.write-up p{
+    opacity: 0.5;
+}
+.helpbtn p a{
+    text-decoration: none;
+    color: #f1f3f4;
+}
+.helpbtn p{
+    background-color: inherit;
+    position: relative;
+    top: 7px;
+    /* font-size: 14px */
+    /* right: 6rem; */
+}
+.helpbtn p:hover{
+    border-bottom: 2px solid #f1f3f4;
+}
+.inputBtn input[type=button], input[value]{
+    background-color: inherit;
+    color: #f1f3f4;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #f1f3f4;
+    text-transform: capitalize;
+}
+.inputBtn input[type=button]:hover{
+    border: 2px solid rgb(170, 83, 83);
+}
+.headerSlide {
+    padding-top: 4rem;
+    height: 40rem;
+    margin-bottom: 0;
+    /* padding: 3rem 3rem */
+}
+.headerSlide h1 span{
+    font-size: 5rem
+}
+
+/* ====img header */
+.headerSlide img{   
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.sectionSlide p{
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    top: 22rem;
+    right: 1.5rem;
+    text-align: right;
+    margin-bottom: 0;
+    width: 20rem
+}
+#headerPhase{
+    width: 55rem;
+    position: relative;
+    right: 4rem
+    /* left: 2rem */
+}
+/* #headerSlide .text p{
+    width: 40rem
+} */
+div .sort{
+    width: 30rem;
+    /* margin-right: 10rem */
+    position: relative;
+    left: 3rem
+}
+
+.headerSlide h1{
+    background: inherit;
+    color: black;
+    font-size: 3rem;
+    /* width: 30rem; */
+    /* margin-right: 15rem */
+}
+.right{
+    position: relative;
+    bottom: 3px;
+}
+.headerUn h6 a{
+    font-size: 14px;
+    margin-right: 1rem;
+    font-weight: bold;
+     color: #f1f3f4;
+     text-decoration: none;
+}
+.headerUn h6 a:hover{
+     border-bottom: 2px solid #f1f3f4;
+     padding-bottom: 5px;
+}
+.headerUn{
+    padding: 10px 10px 1px 35px;
+    background-color: #333;
+    /* position: absolute; */
+    left: 10px;
+    font-size: 14px;
+    font-weight: bold;    
+}
+.headerUn .one a{
+    text-decoration: none;
+    color: #f1f3f4
+}
+.headerUn .one span{
+    color: #333;
+    background-color: lightgrey;
+    padding: 2px 4px 2px 4px;
+}
+
+/*  */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    position: absolute;
+    /* display: none; */
+    visibility: collapse;
+    background-color: #f1f3f4;
+    width: 40rem;
+    box-shadow: 0 1px 3px 1px lightgrey;
+    z-index: 1;
+}
+.dropbtn .itemOne {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+}
+.dropbtn .itemOne a{
+    text-decoration: none;
+    color: #333;
+    position: relative;
+    left: 1rem;
+}
+.dropbtn .itemOne a p:hover{
+    border-bottom: 2px solid #333;
+    width: 3rem;
+}
+.dropdown:hover .dropbtn{
+    visibility: inherit;
+}
+#drop {
+    width: 20rem;
+}
+#drop .itemOne a p:hover{
+    width: 6rem;
+}
+
+/* ========= */
+.sectPart{
+    background-color: #f1f3f4;
+    padding: 3rem 4rem;
+    height: 45rem;
+    margin-bottom: 2rem
+    /* padding-top: 10rem; */
+}
+.sectPart p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+}
+
+#partImg p{
+    position: relative;
+    bottom: 10rem;
+    font-size: 3rem;
+    color: #e7eaeb
+}
+#FirstChildPart{
+    position: relative;
+    right: 6rem
+}
+#imgPart{
+    /* margin-bottom:0 */
+    position: relative;
+    bottom: 16px
+}
+#partImg img{
+    width: 30rem;
+    box-shadow: 0 2px 5px 2px lightgrey;
+}
+#imgPart img{
+    width: 18rem;
+    position: relative;
+    bottom: 3rem;
+    height: 10rem
+}
+#imgPart .nthP{
+    color: #333;
+}
+.sectPart .nth p{
+    text-align: left;
+    margin-left: 1rem
+}
+.featPart .nth h5{
+    text-align: left;
+    margin-left: 8.2rem;
+    font-weight: bold;
+}
+.featPart img{
+    margin: 0 10px;
+    width: 16rem;
+    box-shadow: 0 2px 5px 2px lightgrey;
+}
+.featPart p{
+    font-size: 14px;
+    font-weight: lighter;
+    opacity: 0.7;
+    /* margin-top: 1rem */
+}
+
+footer{
+    background-color: black;
+    color: #f1f3f4;
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: bold;
+    /* margin-top: 2rem */
+}
+footer i{
+    font-size: 1.5rem;
+}
+footer a, footer p.footP a, footer a i, footer p.foot a{
+    text-decoration: none;
+    color: #f1f3f4
+}
+footer a:hover, footer p.footP a:hover, footer a i:hover, footer p.foot a:hover{
+    color: grey
+}
+.footP a{
+    position: relative;
+    top: 6rem;
+    /* text-decoration: none; */
+}
+
+
+
+
+/* FEAT */
+.featPart{
+    /* position: relative; */
+    /* margin-top: 1rem; */
+    margin-bottom: 5rem;
+}
+.featPart2{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.featPart2 h5{
+    margin-left: 6.7rem;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.featPart h5, {
+    /* font-weight: bold; */
+    margin-left: 4.6rem;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+#feat img{
+    width: 30rem;
+    position: relative;
+    left: 3rem;
+    box-shadow: 0 1px 5px 1px lightgrey;
+    object-fit: cover;
+}
+#side p{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    /* width: 10rem */
+}
+#side hr{
+    position: relative;
+    bottom: 10px;
+}
+#side{
+    /* width: 40rem */
+    left: 2rem;
+    position: relative;
+    bottom: 1.5rem
+}
+#side .size{
+    position: relative;
+    bottom: 10px;
+}
+#side a{
+    text-decoration: none;
+    color: inherit;
+}
+#side a:hover{
+    color: black;
+}
+#side #btn{
+    position: relative;
+    /* bottom: 16px; */
+}
+#side #btn .btnBorder{
+    border: 2px solid lightgrey;
+    padding: 15px 8px 2px 8px;
+}
+#side #btn p{
+    font-size: 15px;
+}
+#side #btn .heart{
+    color: red;
+    margin-right: 3px;
+    transition: 100ms ease-in;
+}
+#side #btn .heart:hover{
+    position: relative;
+    bottom: 2px;
+}
+#side #btn .cart{
+    color: turquoise;
+    margin-right: 3px;
+    transition: 100ms ease-in-out;
+}
+#side #btn .cart:hover{
+    position: relative;
+    bottom: 2px;
+}
+#feat .icon div i{
+    margin-right: 2rem;
+}
+#feat .icon{
+    position: relative;
+    left: 4rem;
+    top: 2rem;   
+    transition: 100ms ease-in-out; 
+    font-size: 1.5rem;
+}
+#feat .icon .fb:hover{
+    position: relative;
+    bottom: 2px;
+    color: rgb(52, 52, 240);
+}
+#feat .icon .pint:hover{
+    position: relative;
+    bottom: 2px;
+    color: red;
+}
+#feat .icon .twit:hover{
+    position: relative;
+    bottom: 2px;
+    color: skyblue;
+}
+#feat .icon .envelope:hover{
+    position: relative;
+    bottom: 2px;
+    /* color: blue; */
+}
+#insideAbout{
+    /* position: absolute; */
+    margin-left: 5rem
+}
+#aboutSection{
+    background-color: #f2f2f2;
+    position: relative;
+    top: 4rem;
+    /* left: 5rem */
+}
+#aboutSection i{
+    font-size: 7rem
+}
+#aboutSection h4{
+    text-transform: capitalize;
+}
+#aboutSection p{
+    line-height: 1.5rem;
+    /* padding: 15px 5px 15px 5px */
+}
+#aboutSection .edit{
+    padding: 25px 5px 25px 5px;
+    width: 60rem;
+    margin-left: 2rem;
+}
+
+/*  */
+#slideImg{
+    padding: 0;
+    margin: 1rem 1rem 1rem 1rem;
+    width: 10rem;
+}
+#cardsImg{
+    margin-top: 3rem;
+    background-color: #f1f3f4;
+    padding: 1rem 1rem;
+    width: 30rem;
+    position: relative;
+    right: 2rem
+}
+#cardsImg h5{
+    width: 26rem;
+    font-size: 1.2rem;
+    position: relative;
+    right: 1.2rem;
+    cursor: text;
+}
+#cardsImg img{
+    width: 10rem;
+    transition: 700ms ease-in-out;
+    /* cursor: pointer; */
+    /* margin-right: 5rem */
+}
+#cardsImg img:hover{
+    transform: scale(1.02)
+}
+#cardsImg p{
+    font-size: 12px;
+    width: 10rem;
+    position: relative;
+    left: 3.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+#cardsImg span{
+    position: relative;
+    left: 3.5rem;
+    font-weight: bold;
+}
+
+.moreLikes h5, .moreLikes2 h5{
+    text-transform: capitalize;
+    /* position: relative; */
+    /* left: 3rem; */
+    margin-left: 2rem;
+}
+
+/*  */
+#likes{
+    width: 75rem;
+    position: relative;
+    left: 2rem
+}
+#likes img{
+    width: 12rem
+}
+#likes img:hover{
+    transform: scale(1.02);
+}
+#likes p a{
+    text-decoration: none;
+    color: #333;
+}
+#likes p{
+    text-transform: uppercase;
+    position: relative;
+    /* left: 10rem; */
+    /* right: 10rem; */
+    margin-bottom: 0;
+    font-size: 12px;
+}
+#likes span{
+    font-weight: bold;
+    position: relative;
+    /* left: 0px; */
+}
+.moreLikes h5, .moreLikes2 h5{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.moreLikes{
+    margin: 10rem 0 2rem 0;
+}
+
+#left{
+    position: relative;
+    left: 3rem
+}
+
+
+
+
+/* partTwo */
+body{
+    padding-top:  5rem;
+}
+.card{
+    margin: 4rem 4rem;
+}
+.card input[type=text], input[type=password]{
+    padding: 10px 10px;
+    width: 30rem;
+    border: 1px solid lightgrey;
+}
+.card input[type=password]{
+    margin-top: 35px
+}
+.card p a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 8px
+}
+.card p{
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.card .forgetPw{
+    position: relative;
+    left: 14rem
+}
+#sectionCheck{
+    margin-top: 15px
+}
+.card button{
+    padding: 10px 10px;
+    border: 1px solid lightgrey;
+    width: 15rem;
+}
+.card input[placeholder]{
+    font-style: italic;
+    font-size: 12px
+}
+.card input[placeholder]:focus{
+    /* font-style: inherit; */
+    font-size: 14px;
+    color: grey;
+    background-color: #f1f3f4
+}
+.card h2{
+    background: inherit;
+    color: #333;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    /* margin-botom: 2rem */
+}
+.cardSection h2{
+    background: inherit;
+    font-size: 1.5rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.cardSection{
+    position: relative;
+    top: 4rem;
+    right: 6rem;
+    background: white;
+    padding: 1.5rem 2rem;
+    border: 1px solid lightgrey
+    /* width: 20rem */
+}
+.cardSection p{
+    /* margin-bottom: 10px */
+    color: grey;
+    font-size: 12px
+    /* font-weight: bold; */
+}
+#main{
+    padding-top: 2rem;
+    background-image: url(../img/waterc/crowning\ glory\ peacock\ watercolor\ painting\ by\ nisha\ sehjpal.jpg);
+    /* background-position: left; */
+    /* background-size: cover; */
+    background-blend-mode: luminosity;
+    height: 38rem
+}
+/*  */
+#cardSectionTwo input[type=text],input[type=password]{
+    width: 15rem
+}
+#cardSectionTwo input[type=email]{
+    width: 30.3rem;
+    padding: 10px 10px;
+    border: 1px solid lightgrey;
+    margin-top: 1.5rem;
+}
+#cardSectionTwo p{
+    text-transform: initial;
+    font-size: 14px;
+}
+#respond{
+    padding-top: 2rem;
+    text-align: center;
+    height: 25rem
+}
+#respond h3{
+    text-transform: capitalize;
+    /* text-align: center; */
+    font-size: 2.5rem;
+}
+.secRe{
+    position: relative;
+    left: 10rem;
+    text-align: left;
+    width: 20rem;
+    top: 2rem
+}
+.secRe p{
+    width: 20rem;
+    text-align: justify;
+    font-size: 14px;
+    color: grey;
+    line-height: 2;
+}
+.respondSec{
+    margin-right: 3rem;
+}
+.respondSec h5{
+    font-size: 1.3rem
+}
+.respondSec i{
+    font-size: 1.9rem;
+    position: relative;
+    right: 5px;
+    top: 5px
+}
+#word{
+    margin-right: 5rem;
+    padding-left: 5rem;
+    /* width: 50rem */
+}
+#wordSec{
+    /* padding-left: 25rem; */
+    /* width: 80rem; */
+    background-color: #f1f3f4;
+    padding: 5rem 5rem 5rem 8rem;
+    margin-top: 1rem
+}
+
+#wordSec i{
+    font-size: 2rem;
+    position: relative;
+    right: 1rem
+}
+#wordSec h4{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem
+}
+#wordSec span{
+    font-style: italic;
+    opacity: 0.5;
+    font-weight: bold;
+}
+#wordSec p{
+    width: 25rem;
+    text-align: justify;
+    line-height: 2;
+    font-style: italic;
+    font-size: 14px
+}
+#lastSec{
+    padding-right: 7rem
+}
+#loginPw input[type=password]{
+    width: 30rem
+}
+
+#sunset{
+    /* padding-left: 5rem */
+    /* padding: 4rem 0 4rem 0; */
+    /* background-color: #333; */
+    background-image: url(../img/signs/257416.jpg);
+    background-attachment: fixed;
+    margin-bottom: 3rem;
+    /* width: 50rem; */
+}
+.set{
+    margin: 0 2rem 0 2rem;
+}
+.imgSet img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    display: block;
+    transition: 700ms ease;
+}
+#sunset .imgSet{
+    /* margin-right: 10rem; */
+    position: relative;
+    left: 10rem;
+      padding: 2rem 0 1rem 0;
+}
+/* .imgSet{
+    width: 20rem;
+    height: 20rem;
+} */
+.imgSet .middle {
+    color: #f2f2f2;
+    text-align: center;
+    opacity: 0;
+    position: relative;
+    bottom: 10rem;
+    /* font-size: 1rem; */
+    font-weight: bold;
+}
+.imgSet a img {
+    text-decoration: none;
+}
+.imgSet:hover .middle{
+    opacity: 1;
+}
+.imgSet:hover img{
+    opacity: 0.2
+}
+
+#bodyCard{
+    width: 20rem;
+    padding: 5px 5px;
+}
+#bodyCard h5{
+    position: relative;
+    left: 1rem;
+}
+#error p{
+    font-size: 7rem;
+    text-align: center;
+    color: lightgreen;
+}
+.accnt{
+    position: relative;
+    display: inline-block;
+    right: 2rem;
+}
+.bodyContent{
+    display: none;
+    position: absolute;
+    width: 10rem;
+    padding: 5px 5px;
+    z-index: 1; 
+    box-shadow: 0 2px 5px 1px grey;
+}
+.accnt:hover .bodyContent{
+    display: block;
+    background: #333;
+}
+
+/*  */
+@media only screen and (max-width: 600px){
+   .right div{
+       display: none;
+   }
+   header nav, .navbar, h2, .nav-item, .nav-link{
+       font-size: 11px;
+   }
+}
